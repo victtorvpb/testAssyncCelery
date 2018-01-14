@@ -1,0 +1,9 @@
+amqp==2.2.2
+billiard==3.5.0.3
+celery==4.1.0
+enum34==1.1.6
+eventlet==0.22.0
+greenlet==0.4.12
+kombu==4.1.0
+pytz==2017.3
+vine==1.1.4
