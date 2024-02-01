@@ -1,4 +1,4 @@
-from tasks import hello
+
 import json
 from kombu.connection import Connection
 from kombu import Exchange,Queue

@@ -99,4 +99,4 @@ ENV/
 
 # mypy
 .mypy_cache/
-consumer/node_modules/*
+kombu_producer_node_consumer/node_modules/*
