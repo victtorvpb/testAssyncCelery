@@ -12,4 +12,14 @@
 4. Execute the project
 	> python run.py
 
-
+## Run kombu producer and node consumer
+ 1. Install the requirements
+	> `pip install -r  requirements.txt`
+ 2. Run docker rabbitmq or install the [rabbitmq](https://www.rabbitmq.com/download.html)
+	 > `docker run -d --hostname rabbitmq --name rabbitmq -p 15672:15672  -p 5672:5672 -e RABBITMQ_DEFAULT_USER=guest -e RABBITMQ_DEFAULT_PASS=guest rabbitmq:3-management`
+ 3. Install node requirements
+	> `cd consumer && npm install`
+ 4. Run node consumer
+	> `node worker.js`
+ 5. Execute kombu producer
+	> `python kombu_producer.py`
